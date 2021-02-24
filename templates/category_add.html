@@ -1,0 +1,12 @@
+{% extends 'index.html' %} 
+{% block title%} Add Category {%endblock%} 
+{% block content%}
+<h1>Add Category </h1>
+<hr />
+
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <button>Add</button>
+  <button><a href="{% url 'home' %}"> Cancel </a></button>
+</form>
+{%endblock%}
