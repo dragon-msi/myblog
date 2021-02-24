@@ -26,7 +26,7 @@ SECRET_KEY = 'th1e^jz4*$1a%!)d3+)*z&a#vnj4n#ldh&nl!!2b6&28=!f&od'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['myvkblog.herokuapp.com']
 
 
 # Application definition
